@@ -10,21 +10,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #bde0fe;
+    background: linear-gradient(rgb(10, 101, 106), rgb(109, 39, 239));
     overflow: hidden;
     position: relative;
-    background-image: linear-gradient(rgb(10 101 106), rgb(109, 39, 239));
 }
 
 .app {
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     max-width: 600px;
     background: rgba(255, 255, 255, 0.85); 
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
+    border: 1px solid #eee;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .app > .screen {
@@ -53,10 +53,11 @@ body {
 
 .screen h2 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 2em;
     color: #111;
     border-bottom: 4px solid #555;
     padding: 5px 0;
+    text-align: center;
 }
 
 .screen .form-input label {
@@ -68,16 +69,17 @@ body {
     width: 100%;
     padding: 10px;
     border: 1px solid #555;
-    font-size: 16px;
+    font-size: 1em; 
 }
 
 .screen .form-input button {
     padding: 10px 20px;
     background: #111;
     color: #eee;
-    font-size: 16px;
+    font-size: 1em; 
     cursor: pointer;
     border: none;
+    border-radius: 5px;
 }
 
 .screen .form-input button:hover {
@@ -94,7 +96,7 @@ body {
 }
 
 .chat-screen .header .logo {
-    font-size: 18px;
+    font-size: 1.5em; 
     color: #eee;
     font-weight: 600;
 }
@@ -104,7 +106,7 @@ body {
     border: 1px solid #eee;
     background: transparent;
     color: #eee;
-    font-size: 15px;
+    font-size: 1em; 
     cursor: pointer;
 }
 
@@ -112,6 +114,7 @@ body {
     width: 100%;
     height: calc(100% - 100px);
     overflow-y: auto;
+    padding: 10px; 
 }
 
 .chat-screen .messages .message {
@@ -123,7 +126,7 @@ body {
     max-width: 80%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.2em; 
     font-weight: 600;
     border-radius: 10px;
 }
@@ -147,7 +150,7 @@ body {
 }
 
 .chat-screen .messages .message .name {
-    font-size: 13px;
+    font-size: 0.8em; 
     color: #555;
     margin-bottom: 5px;
 }
@@ -165,22 +168,44 @@ body {
 .chat-screen .typebox {
     width: 100%;
     display: flex;
+    padding: 10px;
+    bottom: 21px;
+    position: relative;
 }
 
 .chat-screen .typebox input {
     flex: 1;
     height: 50px;
-    font-size: 18px;
+    font-size: 1em; 
     border: 2px solid black;
     border-radius: 5px;
+    padding: 0 10px; 
 }
 
 .chat-screen .typebox button {
     width: 80px;
     background: #1414ff;
     color: #eee;
-    font-size: 16px;
+    font-size: 1em; 
     cursor: pointer;
     border: 2px solid black;
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .app {
+        width: 95%; 
+    }
+
+    .screen h2 {
+        font-size: 1.5em; 
+    }
+
+    .chat-screen .header .logo {
+        font-size: 1.2em; 
+    }
+
+    .chat-screen .messages .message > div {
+        font-size: 1em; 
+    }
 }
