@@ -69,7 +69,6 @@
             messageContainer.appendChild(el);
         }
 
-        // Scroll to the latest message
         messageContainer.scrollTop = messageContainer.scrollHeight;
     }
 })();
