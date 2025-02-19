@@ -18,6 +18,15 @@ This is a simple **real-time chat application** built using **HTML, CSS, JavaScr
 
 ## 📌 Setup & Installation
 
+## 📷 Chat Application Preview
+
+### 🔹 Join Section  
+![Join Section](https://github.com/yourusername/chat-application/blob/main/images/join-section.png?raw=true)
+
+### 🔹 Chat Section  
+![Chat Section](https://github.com/yourusername/chat-application/blob/main/images/chat-section.png?raw=true)
+
+
 1. **Clone the Repository**  
    ```sh
    git clone https://github.com/yourusername/chat-application.git
