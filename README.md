@@ -21,10 +21,10 @@ This is a simple **real-time chat application** built using **HTML, CSS, JavaScr
 ## 📷 Chat Application Preview
 
 ### 🔹 Join Section  
-![Join Section](https://github.com/yourusername/chat-application/blob/main/images/join-section.png?raw=true)
+![Join Section](https://github.com/rahulpatel51/ChatApplication/blob/main/Join%20Section.png)
 
 ### 🔹 Chat Section  
-![Chat Section](https://github.com/yourusername/chat-application/blob/main/images/chat-section.png?raw=true)
+![Chat Section](https://github.com/rahulpatel51/ChatApplication/blob/main/Chat%20Section.png)
 
 
 1. **Clone the Repository**  
